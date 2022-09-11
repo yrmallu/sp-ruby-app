@@ -1,0 +1,15 @@
+AllCops:
+  NewCops: enable
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/support/shared_contexts/*.rb
+    - spec/support/shared_examples/*.rb
+    - spec/**/*_spec.rb
+
+Style/Documentation:
+  Enabled: false
+
+Style/RescueModifier:
+  Exclude:
+    - spec/**/*_spec.rb
